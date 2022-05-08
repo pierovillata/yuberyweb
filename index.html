@@ -24,30 +24,33 @@
 
 </head>
 
-
-<nav class="navbar navbar-expand-sm navbar-light bg-secondary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="index.html">COMERCIO</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarID" aria-controls="navbarID"
-      aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarID">
-      <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-        <a class="nav-link " aria-current="page" href="#productos"></a>
-        <a class="nav-link " aria-current="page" href="#somos">Quienes somos</a>
-        <a class="nav-link " aria-current="page" href="#catalogo">Catalogo</a>
-        <a class="nav-link " aria-current="page" href="#contacto">Contacto</a>
-
+<div class="col-xs-12 col-sm-12 col-lg-12 col-md-12">
+  <nav class="navbar navbar-expand-sm navbar-light bg-secondary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">COMERCIO</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarID" aria-controls="navbarID"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarID">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+          <a class="nav-link " aria-current="page" href="#productos"></a>
+          <a class="nav-link " aria-current="page" href="#somos">Quienes somos</a>
+          <a class="nav-link " aria-current="page" href="#catalogo">Catalogo</a>
+          <a class="nav-link " aria-current="page" href="#contacto">Contacto</a>
+  
+        </div>
+  
       </div>
-
     </div>
-  </div>
-  <div style="float:right ;">
-    <a class="nav-link " aria-current="page" href="#login">Admin</a>
-  </div>
-</nav>
+    <div style="float:right ;">
+      <a class="nav-link " aria-current="page" href="#login">Admin</a>
+    </div>
+  </nav>
+</div>
+
+
 
 <br>
 
@@ -58,7 +61,7 @@
       <div class="card somos" >
         <h2 class="card-title">COMERCIO</h2>
 
-        <p class="card-text" style="text-align: ;center">
+        <p class="card-text" style="text-align:center">
           Somos una empresa de venta electronica de productos de diferentes tipos, ademas ofrecemos
           servicio y
           consultoria online.</p>
@@ -72,7 +75,7 @@
 <!--CAROUSEL-->
 <div class="container-fluid">
   <section id="productos">
-    <div id="slider1" class="carousel slide" data-ride="carousel">
+    <div id="slider" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#slider1" data-slide-to="0" class="active"></li>
         <li data-target="#slider2" data-slide-to="1"></li>
@@ -80,7 +83,7 @@
       </ol>
       <div class="carousel-inner">
        
-        <div class="carousel-item active" id="slider">
+        <div class="carousel-item active" id="slider1">
           <img src="imagenes/producto1.jpg" class="d-block w-100 prodcata" alt="PRODUCTO 1">
           <div class="carousel-caption d-none d-md-block">
             <h5>PRIMER PRODUCTO</h5>
@@ -108,11 +111,11 @@
 
     </div>
 
-    <a class="carousel-control-prev" href="#slider1" role="button" data-slide="prev">
+    <a class="carousel-control-prev" href="#slider" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="sr-only">Previo</span>
     </a>
-    <a class="carousel-control-next" href="#slider1" role="button" data-slide="next">
+    <a class="carousel-control-next" href="#slider" role="button" data-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="sr-only">Proximo</span>
     </a>
@@ -127,7 +130,7 @@
       <h2>CATALOGO</h2>
     </center>
     <div class="row">
-      <div class="card col">
+      <div class="card col-xs-12 col-sm-12 col-md-3 col-lg-3 prodItem">
         <img src="/imagenes/catalogo/prod1.jpeg" class="card-img-top producto" alt="...">
         <div class="card-body">
           <h5 class="card-title">Producto 1</h5>
@@ -137,7 +140,7 @@
           <center><a class="btn btn-primary btn-sm " href="#" role="button">Consultar </a></center>
         </div>
       </div>
-      <div class="card col">
+      <div class="card col-xs-12 col-sm-12 col-md-3 col-lg-3 prodItem">
         <img src="/imagenes/catalogo/prod2.jpeg" class="card-img-top producto" alt="...">
         <div class="card-body">
           <h5 class="card-title">Producto 2</h5>
@@ -147,7 +150,7 @@
           <center><a class="btn btn-primary btn-sm " href="#" role="button">Consultar </a></center>
         </div>
       </div>
-      <div class="card col">
+      <div class="card col-xs-12 col-sm-12 col-md-3 col-lg-3 prodItem">
         <img src="/imagenes/catalogo/prod3.jpeg" class="card-img-top producto" alt="...">
         <div class="card-body">
           <h5 class="card-title">Producto 3</h5>
@@ -157,61 +160,19 @@
           <center><a class="btn btn-primary btn-sm " href="#" role="button">Consultar </a></center>
         </div>
       </div>
-      <div class="card col">
+      <div class="card col-xs-12 col-sm-12 col-md-3 col-lg-3 prodItem">
         <img src="/imagenes/catalogo/prod4.jpeg" class="card-img-top producto" alt="...">
         <div class="card-body">
           <h5 class="card-title">Producto 4</h5>
           <h6 class="card-subtitle mb-2 text-muted ">Card subtitle</h6>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of
             the card's content.</p>
-          <a class="btn btn-primary btn-sm " href="#" role="button">Consultar </a>
+          <center><a class="btn btn-primary btn-sm " href="#" role="button">Consultar </a></center>
         </div>
       </div>
     </div>
 
-    <div class="row">
-      <div class="card col">
-        <img src="/imagenes/catalogo/prod5.jpeg" class="card-img-top producto" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Producto 5</h5>
-          <h6 class="card-subtitle mb-2 text-muted ">Card subtitle</h6>
-          <p class="card-text">Some quick example text to build on the card title and make up the </p>
-          <center> <a class="btn btn-primary btn-sm " href="#" role="button">Consultar </a></center>
-        </div>
-      </div>
-      <div class="card col">
-        <img src="/imagenes/catalogo/prod6.jpeg" class="card-img-top producto" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Producto 6</h5>
-          <h6 class="card-subtitle mb-2 text-muted ">Card subtitle</h6>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-            the card's content.</p>
-          <center><a class="btn btn-primary btn-sm " href="#" role="button">Consultar </a></center>
-        </div>
-      </div>
-      <div class="card col">
-        <img src="/imagenes/catalogo/prod7.jpeg" class="card-img-top producto" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Producto 7</h5>
-          <h6 class="card-subtitle mb-2 text-muted ">Card subtitle</h6>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk
-            of
-            the card's content.</p>
-          <center><a class="btn btn-primary btn-sm " href="#" role="button">Consultar </a></center>
-        </div>
-      </div>
-      <div class="card col">
-        <img src="/imagenes/catalogo/prod8.jpeg" class="card-img-top producto" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Producto 8</h5>
-          <h6 class="card-subtitle mb-2 text-muted ">Card subtitle</h6>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk
-            of
-            the card's content.</p>
-          <center<a class="btn btn-primary btn-sm " href="#" role="button">Consultar </a></center>
-        </div>
-      </div>
-    </div>
+ 
 
   </section>
 </div>
