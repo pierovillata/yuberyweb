@@ -1,11 +1,4 @@
-section {
-    
-   
-}
-body{
 
- 
-}
 
 .nav-link {
     color: white !important;
@@ -18,8 +11,18 @@ body{
     height: 200px !important;
 }
 
+.prodcata {
+    height: 400px !important;
+}
+
 .contacto {
     background-color: rgb(227, 209, 243);
     border-radius: 6px !important;
     padding: 5%;
+}
+
+.somos {
+    
+    height: 100px !important;
+    background-color: rgb(241, 240, 255);
 }
