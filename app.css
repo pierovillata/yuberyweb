@@ -1,0 +1,12 @@
+section {
+    background-color: rgb(250, 248, 253);
+   
+}
+body{
+
+    background-color: rgb(241, 241, 230);
+}
+
+.nav-link {
+    color: white !important;
+}
