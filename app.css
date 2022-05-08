@@ -1,12 +1,16 @@
 section {
-    background-color: rgb(250, 248, 253);
+    
    
 }
 body{
 
-    background-color: rgb(0, 0, 0);
+ 
 }
 
 .nav-link {
     color: white !important;
+}
+.navbar {
+    background-color: darkorchid !important;
+
 }
